@@ -7,19 +7,19 @@
     <form id="makeConteiner" asp-controller="Product" asp-action="Make" method="post">
         <div class="form-group">
             <label for="Name">Nome</label>
-            <input type="email" class="form-control" placeholder="Nome do produto" asp-for="Name">
+            <input type="text" class="form-control" placeholder="Nome do produto" asp-for="Name">
 
             <label for="Price">Preço</label>
-            <input type="email" class="form-control" placeholder="Preço do produto" asp-for="Price">
+            <input type="text" class="form-control" placeholder="Preço do produto" asp-for="Price">
 
             <label for="Quantity">Quantidade</label>
-            <input type="email" class="form-control" placeholder="Quentidade em estoque" asp-for="Quantity">
+            <input type="text" class="form-control" placeholder="Quentidade em estoque" asp-for="Quantity">
 
             <label for="Description">Descrição do produto</label>
             <textarea asp-for="Description" class="form-control" rows="3"></textarea>
         </div>
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Adicionar</button>
         <a role="button" class="btn btn-secondary" asp-controller="Product" asp-action="Index">Voltar</a>
     </form>
 </div>
