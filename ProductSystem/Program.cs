@@ -1,9 +1,17 @@
+using Microsoft.EntityFrameworkCore;
+using ProductSystem.Data;
+using ProductSystem.Repository;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
+builder.Services.AddEntityFrameworkSqlServer().AddDbContext<BankContext>(o => o.UseSqlServer(
+    "server=ACERASPIRE;Database=Db_ProductSystem;User Id=sa;Password=2610#Gabi;Encrypt=False"));
+
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

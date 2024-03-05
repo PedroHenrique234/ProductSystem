@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ProductSystem.Models;
 
 namespace ProductSystem.Data
 {
@@ -8,6 +9,6 @@ namespace ProductSystem.Data
         {
 
         }
-        DbSet<BankContext> Products {  get; set; }
+        DbSet<ProductModel> Products {  get; set; }
     }
 }
