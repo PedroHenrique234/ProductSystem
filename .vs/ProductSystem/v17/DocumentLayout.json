@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\ProductSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{231E1CD9-D0E4-44B8-B9F8-CF3C6E4AFF16}|ProductSystem\\ProductSystem.csproj|c:\\users\\yelow\\onedrive\\documentos\\c#\\asp.net\\productsystem\\productsystem\\data\\bankcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{231E1CD9-D0E4-44B8-B9F8-CF3C6E4AFF16}|ProductSystem\\ProductSystem.csproj|solutionrelative:productsystem\\data\\bankcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{231E1CD9-D0E4-44B8-B9F8-CF3C6E4AFF16}|ProductSystem\\ProductSystem.csproj|c:\\users\\yelow\\onedrive\\documentos\\c#\\asp.net\\productsystem\\productsystem\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{231E1CD9-D0E4-44B8-B9F8-CF3C6E4AFF16}|ProductSystem\\ProductSystem.csproj|solutionrelative:productsystem\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{231E1CD9-D0E4-44B8-B9F8-CF3C6E4AFF16}|ProductSystem\\ProductSystem.csproj|c:\\users\\yelow\\onedrive\\documentos\\c#\\asp.net\\productsystem\\productsystem\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{231E1CD9-D0E4-44B8-B9F8-CF3C6E4AFF16}|ProductSystem\\ProductSystem.csproj|solutionrelative:productsystem\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{231E1CD9-D0E4-44B8-B9F8-CF3C6E4AFF16}|ProductSystem\\ProductSystem.csproj|c:\\users\\yelow\\onedrive\\documentos\\c#\\asp.net\\productsystem\\productsystem\\views\\product\\make.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{231E1CD9-D0E4-44B8-B9F8-CF3C6E4AFF16}|ProductSystem\\ProductSystem.csproj|solutionrelative:productsystem\\views\\product\\make.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,19 +35,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BankContext.cs",
+              "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\ProductSystem\\ProductSystem\\Data\\BankContext.cs",
+              "RelativeDocumentMoniker": "ProductSystem\\Data\\BankContext.cs",
+              "ToolTip": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\ProductSystem\\ProductSystem\\Data\\BankContext.cs",
+              "RelativeToolTip": "ProductSystem\\Data\\BankContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T18:40:47.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Make.cshtml",
+              "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\ProductSystem\\ProductSystem\\Views\\Product\\Make.cshtml",
+              "RelativeDocumentMoniker": "ProductSystem\\Views\\Product\\Make.cshtml",
+              "ToolTip": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\ProductSystem\\ProductSystem\\Views\\Product\\Make.cshtml",
+              "RelativeToolTip": "ProductSystem\\Views\\Product\\Make.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T16:23:31.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\ProductSystem\\ProductSystem\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ProductSystem\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\ProductSystem\\ProductSystem\\Controllers\\ProductController.cs",
               "RelativeToolTip": "ProductSystem\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-05T14:15:14.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductModel.cs",
               "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\ProductSystem\\ProductSystem\\Models\\ProductModel.cs",
               "RelativeDocumentMoniker": "ProductSystem\\Models\\ProductModel.cs",
