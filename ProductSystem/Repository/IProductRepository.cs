@@ -8,5 +8,6 @@ namespace ProductSystem.Repository
         public List<ProductModel> FindAllProducts();
         public ProductModel FindById(int id);
         public bool Remove (int id);
+        public ProductModel UpdateProduct(ProductModel product);
     }
 }

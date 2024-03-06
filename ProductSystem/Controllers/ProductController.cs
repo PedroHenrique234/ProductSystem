@@ -20,9 +20,10 @@ namespace ProductSystem.Controllers
         {
             return View();
         }
-        public IActionResult Edit()
+        public IActionResult Edit(int id)
         {
-            return View();
+            ProductModel product =_productRepository.FindById(id);
+            return View(product);
         }
         public IActionResult DeletConfirm(int id)
         {
@@ -34,6 +35,12 @@ namespace ProductSystem.Controllers
         {
             _productRepository.AddProduct(product);
 
+            return RedirectToAction("Index");
+        }
+        [HttpPost]
+        public IActionResult Update(ProductModel product)
+        {
+            _productRepository.UpdateProduct(product);
             return RedirectToAction("Index");
         }
         public IActionResult DeleteProduct(int id)

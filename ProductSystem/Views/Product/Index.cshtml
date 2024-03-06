@@ -26,7 +26,7 @@
                     <td>@item.Quantity</td>
                     <td>@item.TotalPrice.ToString("F2")</td>
                     <td class="btn-group" role="group">
-                        <a role="button" class="btn btn-primary">Editar</a>
+                        <a role="button" class="btn btn-primary" asp-controller="Product" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
                         <a role="button" class="btn btn-primary" asp-controller="Product" asp-action="DeletConfirm" asp-route-id="@item.Id">Apagar</a>
                     </td>
                 </tr>

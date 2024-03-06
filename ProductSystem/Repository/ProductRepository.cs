@@ -40,5 +40,22 @@ namespace ProductSystem.Repository
             _bankContext.SaveChanges();
             return true;
         }
+
+        public ProductModel UpdateProduct(ProductModel product)
+        {
+            ProductModel productDb = FindById(product.Id);
+
+            if (productDb == null) throw new Exception("Impossível atualizar o produto");
+
+            productDb.Name = product.Name;
+            productDb.Price = product.Price;
+            productDb.Quantity = product.Quantity;
+            productDb.Description = product.Description;
+            productDb.TotalPrice = product.Price * product.Quantity;
+
+            _bankContext.Products.Update(productDb);
+            _bankContext.SaveChanges();
+            return productDb;
+        }
     }
 }
