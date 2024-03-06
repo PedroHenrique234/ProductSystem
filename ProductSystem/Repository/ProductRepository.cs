@@ -24,5 +24,21 @@ namespace ProductSystem.Repository
         {
             return _bankContext.Products.ToList();
         }
+
+        public ProductModel FindById(int id)
+        {
+            return _bankContext.Products.FirstOrDefault(x => x.Id == id);
+        }
+
+        public bool Remove(int id)
+        {
+            ProductModel productDb = FindById(id);
+
+            if (productDb == null) throw new Exception("Impossível apagar o contato");
+
+            _bankContext.Remove(productDb);
+            _bankContext.SaveChanges();
+            return true;
+        }
     }
 }

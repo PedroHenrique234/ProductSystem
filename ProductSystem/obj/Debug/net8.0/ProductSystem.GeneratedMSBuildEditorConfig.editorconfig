@@ -18,8 +18,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\yelow\OneDrive\Documentos\C#\Asp.Net\ProductSystem\ProductSystem
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/yelow/OneDrive/Documentos/C\#/Asp.Net/ProductSystem/ProductSystem/Views/Product/Delet.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldC5jc2h0bWw=
+[C:/Users/yelow/OneDrive/Documentos/C\#/Asp.Net/ProductSystem/ProductSystem/Views/Product/DeletConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldENvbmZpcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/yelow/OneDrive/Documentos/C\#/Asp.Net/ProductSystem/ProductSystem/Views/Product/Edit.cshtml]

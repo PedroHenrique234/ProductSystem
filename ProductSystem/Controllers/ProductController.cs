@@ -24,15 +24,21 @@ namespace ProductSystem.Controllers
         {
             return View();
         }
-        public IActionResult Delet()
+        public IActionResult DeletConfirm(int id)
         {
-            return View();
+            ProductModel product = _productRepository.FindById(id);
+            return View(product);
         }
         [HttpPost]
         public IActionResult Make(ProductModel product)
         {
             _productRepository.AddProduct(product);
 
+            return RedirectToAction("Index");
+        }
+        public IActionResult DeleteProduct(int id)
+        {
+            _productRepository.Remove(id);
             return RedirectToAction("Index");
         }
     }
