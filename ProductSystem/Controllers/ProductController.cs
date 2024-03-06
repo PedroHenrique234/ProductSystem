@@ -13,7 +13,8 @@ namespace ProductSystem.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            List<ProductModel> product = _productRepository.FindAllProducts();
+            return View(product);
         }
         public IActionResult Make()
         {

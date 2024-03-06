@@ -1,8 +1,36 @@
-﻿@{
+﻿@model List<ProductModel>
+@{
     ViewData["Title"] = "Product Page";
 }
 
+<h1 id="heroTitle" class="display-4">Produtos</h1>
+<a id="makeButton" role="button" class="btn btn-primary" asp-controller="Product" asp-action="Make">novo Produto</a>
+
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">preço</th>
+                <th scope="col">Quantidade</th>
+                <th scope="col">Total em estoque</th>
+            </tr>
+        </thead>
+        @if (Model != null && Model.Any())
+        {
+            foreach (ProductModel item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Price.ToString("F2")</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.TotalPrice.ToString("F2")</td>
+                    <td class="btn-group" role="group">
+                        <a role="button" class="btn btn-primary">Editar</a>
+                        <a role="button" class="btn btn-primary">Apagar</a>
+                    </td>
+                </tr>
+            }
+        }
+    </table>
 </div>

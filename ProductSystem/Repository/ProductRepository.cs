@@ -1,5 +1,6 @@
 ﻿using ProductSystem.Data;
 using ProductSystem.Models;
+using System.Globalization;
 
 namespace ProductSystem.Repository
 {
@@ -12,9 +13,16 @@ namespace ProductSystem.Repository
         }
         public ProductModel AddProduct(ProductModel product)
         {
-            _bankContext.Add(product);
+            product.TotalPrice = product.Price * product.Quantity;
+
+            _bankContext.Products.Add(product);
             _bankContext.SaveChanges();
             return product;
+        }
+
+        public List<ProductModel> FindAllProducts()
+        {
+            return _bankContext.Products.ToList();
         }
     }
 }

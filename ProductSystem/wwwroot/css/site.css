@@ -26,6 +26,10 @@ footer{
     bottom: 10px;
 }
 
+#heroTitle{
+    text-align: center;
+}
+
 #makeConteiner {
     margin: auto;
     width: 34rem;

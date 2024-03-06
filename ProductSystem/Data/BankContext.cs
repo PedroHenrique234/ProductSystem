@@ -9,6 +9,6 @@ namespace ProductSystem.Data
         {
 
         }
-        DbSet<ProductModel> Products {  get; set; }
+        public DbSet<ProductModel> Products {  get; set; }
     }
 }
